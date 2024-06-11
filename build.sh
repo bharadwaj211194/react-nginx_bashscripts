@@ -7,8 +7,8 @@ cd gold/
 sudo git clone https://github.com/Hari0o/Gold_Site_Ecommerce.git
 cd Gold_Site_Ecommerce/
 sudo docker build -t react-nginx -f golddockerfile .
-sudo docker tag react-nginx:latest reactdemo/react-nginx:latest ##make sure you did docker login
-sudo docker push reactdemo/react-nginx:latest
+sudo docker tag react-nginx:latest bharadwaj211194/react-nginx:latest ##make sure you did docker login
+sudo docker push bharadwaj211194/react-nginx:latest
 
 
 ##recommended script###
@@ -16,5 +16,5 @@ sudo docker push reactdemo/react-nginx:latest
 #cd gold/Gold_Site_Ecommerce
 #sudo git pull
 #sudo docker build -t react-nginx -f goldockerfile .
-#sudo docker tag react-nginx:latest reactdemo/react-nginx:latest ##make sure you did docker login
-#sudo docker push reactdemo/react-nginx:latest
+#sudo docker tag react-nginx:latest bharadwaj211194/react-nginx:latest ##make sure you did docker login
+#sudo docker push bharadwaj211194/react-nginx:latest
